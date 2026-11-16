@@ -2550,7 +2550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7ceb2c4-85ff-4095-aca2-efb2e15068ec")
-		(property "Reference" "R44"
+		(property "Reference" "R48"
 			(at 110.49 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2612,7 +2612,7 @@
 		(instances
 			(project "HELLCAT"
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/527b1177-37a7-49a9-a033-635ef930fed1"
-					(reference "R44")
+					(reference "R48")
 					(unit 1)
 				)
 			)

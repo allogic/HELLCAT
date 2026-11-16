@@ -1674,6 +1674,12 @@
 		(uuid "0ee5e6ba-76fa-4907-98d9-fa78c88ebe16")
 	)
 	(junction
+		(at 181.61 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22a4fc66-1cc0-4437-b713-6490c51b0a9b")
+	)
+	(junction
 		(at 90.17 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1702,12 +1708,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40df76a0-3813-4fba-8d7d-7160a285f7f2")
-	)
-	(junction
-		(at 181.61 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43d60fa4-a437-44bf-aee1-0d2c54861878")
 	)
 	(junction
 		(at 133.35 58.42)
@@ -1758,7 +1758,7 @@
 		(uuid "bf20dcd1-ea3a-4d20-b386-6d4653e1fe81")
 	)
 	(junction
-		(at 203.2 73.66)
+		(at 208.28 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4517624-c8d1-4229-b51e-0fed4bdb0a09")
@@ -2119,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 72.39) (xy 203.2 73.66)
+			(xy 208.28 72.39) (xy 208.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2249,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 82.55) (xy 203.2 83.82)
+			(xy 208.28 82.55) (xy 208.28 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2299,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 91.44) (xy 208.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af41c03-3e43-4336-8d34-be8058af5d43")
+	)
+	(wire
+		(pts
 			(xy 137.16 73.66) (xy 127 73.66)
 		)
 		(stroke
@@ -2339,7 +2349,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 63.5) (xy 203.2 64.77)
+			(xy 208.28 63.5) (xy 208.28 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2389,7 +2399,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 63.5) (xy 203.2 63.5)
+			(xy 220.98 63.5) (xy 208.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2569,7 +2579,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 73.66) (xy 203.2 74.93)
+			(xy 208.28 73.66) (xy 208.28 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2659,7 +2669,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 73.66) (xy 203.2 73.66)
+			(xy 181.61 73.66) (xy 208.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2718,7 @@
 		(uuid "fce095e8-d5fb-4cee-8adb-d000c29c8979")
 	)
 	(label "REG_3V3"
-		(at 215.9 63.5 180)
+		(at 220.98 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2858,6 +2868,97 @@
 		(uuid "f48bd427-78b6-48ec-ad4a-f071bba16bfd")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 92.71 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0881269b-bd5d-47d1-95d0-1dfa3605282f")
+		(property "Reference" "#PWR025"
+			(at 208.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0750ae13-70b6-4e30-bbff-61275e9ea3dd")
+		)
+		(instances
+			(project "HELLCAT"
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 102.87 63.5 0)
 		(unit 1)
@@ -2974,7 +3075,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "250m"
+		(property "Value" "200m"
 			(at 201.93 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,11 +3128,11 @@
 		(instances
 			(project "HELLCAT"
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "R31")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
@@ -3039,7 +3140,7 @@
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3130,6 +3231,100 @@
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "132e39ab-f9f5-470a-aa36-1a692c7b16ce")
+		(property "Reference" "R8"
+			(at 210.82 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50k"
+			(at 210.82 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.058 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c3f07906-ffa4-4583-9c18-47ce77689e9e")
+		)
+		(pin "1"
+			(uuid "3d83dfb3-abc8-4be9-9e0e-56d6b66f3a30")
+		)
+		(instances
+			(project "HELLCAT"
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3475,11 +3670,11 @@
 		(instances
 			(project "HELLCAT"
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "R29")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
@@ -3487,7 +3682,7 @@
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3579,6 +3774,100 @@
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464cd361-906d-43ce-9793-676c95bc9548")
+		(property "Reference" "C10"
+			(at 81.28 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 81.28 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 78.4352 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e38e3fb-70e7-470a-ab8e-be337c690bea")
+		)
+		(pin "1"
+			(uuid "84a110e7-ce20-4de6-a4ab-f55c206fef74")
+		)
+		(instances
+			(project "HELLCAT"
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3684,6 +3973,194 @@
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 78.74 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d120438-942f-43b3-9a5e-e678e62363bf")
+		(property "Reference" "R9"
+			(at 210.82 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50k"
+			(at 210.82 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.058 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a42016b8-220c-4e8e-ba19-07d28b83f7e9")
+		)
+		(pin "1"
+			(uuid "9677ca1e-5edd-48c9-bcd3-e7fddc7bdce5")
+		)
+		(instances
+			(project "HELLCAT"
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58147cf0-d03f-4f76-886f-aff677088267")
+		(property "Reference" "R10"
+			(at 210.82 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "25k"
+			(at 210.82 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.058 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "419ff0c5-22e9-4cd9-8be8-e4955dc7a2fb")
+		)
+		(pin "1"
+			(uuid "8f0e3338-0843-4079-8f58-13ca69766582")
+		)
+		(instances
+			(project "HELLCAT"
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3878,101 +4355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 203.2 78.74 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66daa8bb-2d7c-444b-8877-eceb9cf4fe70")
-		(property "Reference" "R9"
-			(at 200.66 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "30k"
-			(at 200.66 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 201.422 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 203.2 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c4f73e08-43db-446b-b3a8-b01d1c5423cd")
-		)
-		(pin "1"
-			(uuid "18ab651a-b1da-4d70-8dfc-fd767452c889")
-		)
-		(instances
-			(project "HELLCAT"
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "R33")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
-					(reference "R9")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 127 67.31 0)
 		(unit 1)
@@ -4068,101 +4450,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 68.58 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7977a901-c848-418e-9441-a68af4868ad8")
-		(property "Reference" "R8"
-			(at 200.66 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "50k"
-			(at 200.66 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 201.422 68.58 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 203.2 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0ed999a8-2db2-4611-aa15-b7b97696b96e")
-		)
-		(pin "1"
-			(uuid "1abe327f-1cd1-46a2-b6f5-924e4d73e3ce")
-		)
-		(instances
-			(project "HELLCAT"
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "R32")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "R16")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 77.47 91.44 180)
 		(unit 1)
 		(body_style 1)
@@ -4237,11 +4524,11 @@
 		(instances
 			(project "HELLCAT"
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "R26")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
@@ -4249,7 +4536,7 @@
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4520,11 +4807,11 @@
 		(instances
 			(project "HELLCAT"
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "R28")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
@@ -4532,7 +4819,7 @@
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4561,7 +4848,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "250m"
+		(property "Value" "200m"
 			(at 191.77 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4614,11 +4901,11 @@
 		(instances
 			(project "HELLCAT"
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "R30")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
@@ -4626,7 +4913,7 @@
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4708,11 +4995,11 @@
 		(instances
 			(project "HELLCAT"
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "R27")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
@@ -4720,7 +5007,7 @@
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4996,191 +5283,6 @@
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 77.47 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e29e0e90-8db5-4d38-ac24-b24046495d89")
-		(property "Reference" "C10"
-			(at 81.28 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 81.28 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 78.4352 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 77.47 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c17eaa24-7bfa-47fb-8170-8b967682940d")
-		)
-		(pin "1"
-			(uuid "f012954b-e09a-40eb-b755-44f586fece57")
-		)
-		(instances
-			(project "HELLCAT"
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "C28")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "C16")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
-					(reference "C10")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 83.82 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb7cc53f-7a5c-4a6b-b463-19adce76140f")
-		(property "Reference" "#PWR025"
-			(at 203.2 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1869c4b9-f83f-4583-8797-1c891055b1b3")
-		)
-		(instances
-			(project "HELLCAT"
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/2972ec55-c123-4582-aeb7-4d73188079a8"
-					(reference "#PWR043")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/35b26b00-b8d0-409a-ae1d-46a9c88ccad8"
-					(reference "#PWR031")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/3a520972-215e-434e-ae7c-de0924b69dc8"
-					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/706a3e1d-31d3-42f5-a6ee-e965c5b8e9a9"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)

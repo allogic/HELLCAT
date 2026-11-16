@@ -8972,7 +8972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "18p"
 			(at 92.71 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9863,7 +9863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "18p"
 			(at 110.49 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)

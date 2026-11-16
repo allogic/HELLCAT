@@ -1449,7 +1449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c998150c-c235-4b1e-9133-4cc9444cfee3")
-		(property "Reference" "R40"
+		(property "Reference" "R44"
 			(at 138.43 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1513,19 +1513,19 @@
 		(instances
 			(project "HELLCAT"
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/13baf0c6-43e0-483e-9705-1663d1448c9e"
-					(reference "R41")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/526eb789-8600-411a-92f8-afd4d6046cf1"
-					(reference "R42")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/5dfb9a4a-63dc-4c06-ae46-891ca72126d3"
-					(reference "R40")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/098983bc-ec70-44ea-a184-f1e1ddc80adb/d88256cb-25ed-464e-a166-1048c7ff5254"
-					(reference "R43")
+					(reference "R47")
 					(unit 1)
 				)
 			)
