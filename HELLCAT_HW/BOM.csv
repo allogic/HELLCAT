@@ -1,0 +1,27 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+"C1,C15,C21,C27,C33",5,470n,,,,Capacitor_SMD:C_0603_1608Metric,
+"C2,C3,C4,C9,C11,C12,C13,C17,C18,C19,C23,C24,C25,C29,C30,C31,C34,C37,C40,C41,C42,C43",22,100n,,,,Capacitor_SMD:C_0603_1608Metric,
+C5,1,10u,,,,Capacitor_SMD:C_0603_1608Metric,
+C6,1,1u,,,,Capacitor_SMD:C_0603_1608Metric,
+"C7,C8",2,18p,,,,Capacitor_SMD:C_0603_1608Metric,
+"C10,C16,C22,C28",4,100u,,,,Capacitor_SMD:C_0603_1608Metric,
+"C14,C20,C26,C32,C35,C36,C38,C39",8,10n,,,,Capacitor_SMD:C_0603_1608Metric,
+"D1,D2,D3,D4",4,LED,,,,LED_SMD:LED_0603_1608Metric,
+"J1,J2,J3,J4",4,282834-4,,,,HELLCAT:282834-4,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282834-4&DocFormat=pdf
+J5,1,SSK03-MPH-254-B4,,,,HELLCAT:SSK03-MPH-254-B4,https://www.sameskydevices.com/product/resource/ssk03-mph-254.pdf
+J6,1,282834-2,,,,HELLCAT:282834-2,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf
+J7,1,512964594,,,,HELLCAT:0512964594,https://www.molex.com/en-us/products/part-detail-pdf/512964594?display=pdf
+"R1,R3,R4,R11,R12,R19,R20,R27,R28,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43",19,10k,,,,Resistor_SMD:R_0603_1608Metric,
+"R2,R10,R18,R26",4,2.2k,,,,Resistor_SMD:R_0603_1608Metric,
+"R5,R13,R21,R29",4,1M,,,,Resistor_SMD:R_0603_1608Metric,
+"R6,R7,R14,R15,R22,R23,R30,R31",8,200m,,,,Resistor_SMD:R_0603_1608Metric,
+"R8,R16,R24,R32",4,50k,,,,Resistor_SMD:R_0603_1608Metric,
+"R9,R17,R25,R33",4,30k,,,,Resistor_SMD:R_0603_1608Metric,
+R44,1,180,,,,Resistor_SMD:R_0603_1608Metric,
+"S1,S2,S3,S4",4,A6S-3102-H,,,,HELLCAT:A6S-3102-H,https://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf
+"S5,S6,S7,S8",4,TL2201EEYA,,,,HELLCAT:TL2201EEYA,https://configured-product-images.s3.amazonaws.com/2D/specs/TL2201OAXB.pdf
+U1,1,TPS7B92033DBVR,,,,HELLCAT:TPS7B92033DBVR,https://www.ti.com/lit/gpn/tps7b92
+U2,1,STM32G071CBT6,,,,HELLCAT:STM32G071CBT6,https://www.st.com/resource/en/datasheet/stm32g071c8.pdf
+"U3,U4,U5,U6",4,DRV8825PWPR,,,,HELLCAT:DRV8825PWPR,https://www.ti.com/lit/gpn/drv8825
+"U7,U8",2,EC11E183440C,,,,HELLCAT:EC11E183440C,https://www.mouser.ph/ProductDetail/Alps-Alpine/EC11E183440C?qs=YMSFtX0bdJC6PoDF7K4k%252Bg%3D%3D&srsltid=AfmBOorYrkkp3Lq41sMR4Ore76Jybh9sQ54N4UvAk2-drs_YEgE8YIKb
+X1,1,STDCSU1-8M,,,,HELLCAT:STDCSU1-8M,STDCSU1-8M
